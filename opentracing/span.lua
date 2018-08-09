@@ -61,6 +61,16 @@ end
 function span_methods:set_tag(key, value)
 end
 
+--- Retrieves a value previously set with `:set_tag`.
+--
+-- @param key key or name of the tag. Must be a string.
+function span_methods:get_tag(key)
+end
+
+--- Returns an iterator over each key/value pair previously set with `:set_tag`
+function span_methods:each_tag()
+end
+
 --- Attaches a log record to the @class `Span`.
 --
 -- For example:
