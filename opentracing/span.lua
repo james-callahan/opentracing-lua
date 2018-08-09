@@ -87,6 +87,10 @@ end
 function span_methods:log_kv(key_values, timestamp)
 end
 
+--- Returns an iterator over each log item
+function span_methods:each_log()
+end
+
 --- Stores a Baggage item in the @class `Span` as a key/value pair.
 --
 -- Enables powerful distributed context propagation functionality where
